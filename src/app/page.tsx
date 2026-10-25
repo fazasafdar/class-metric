@@ -4,6 +4,7 @@ const tools = [
   { href: "/percentage-calculator", name: "Percentage Calculator" },
   { href: "/weighted-grade-calculator", name: "Weighted Grade Calculator" },
   { href: "/attendance-calculator", name: "Attendance Calculator" },
+  { href: "/class-average-calculator", name: "Class Average Calculator" },
 ];
 
 export default function Home() {
