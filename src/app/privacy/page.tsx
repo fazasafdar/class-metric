@@ -26,7 +26,6 @@ export default function PrivacyPage() {
               <li>You do not need an account, and there is no sign-in.</li>
               <li>What you type into a calculator is not sent to us or to anyone else.</li>
               <li>What you type is not stored. It disappears when you refresh or close the page.</li>
-              <li>The site has no analytics, no advertising and no third-party scripts.</li>
             </ul>
           ),
         },
@@ -55,15 +54,6 @@ export default function PrivacyPage() {
                 calculator will refer to students by number instead.
               </p>
             </>
-          ),
-        },
-        {
-          heading: "Cookies and tracking",
-          body: (
-            <p>
-              This site does not set cookies of its own, does not use analytics or advertising
-              services, and does not load scripts from other companies.
-            </p>
           ),
         },
         {
