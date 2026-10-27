@@ -9,3 +9,8 @@ export const SITE_URL =
   (process.env.VERCEL_PROJECT_PRODUCTION_URL
     ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
     : "http://localhost:3000");
+
+/** Full address of a page on this site, for example absoluteUrl("/about"). */
+export function absoluteUrl(path: string): string {
+  return new URL(path, SITE_URL).toString();
+}

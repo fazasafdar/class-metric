@@ -26,7 +26,13 @@ body {
   color: var(--color-ink);
   font-family: var(--font-sans);
 }
-
+.graph-paper {
+  background-color: var(--color-tint);
+  background-image:
+    linear-gradient(var(--color-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-line) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
 :focus-visible {
   outline: 3px solid var(--color-brand);
   outline-offset: 2px;

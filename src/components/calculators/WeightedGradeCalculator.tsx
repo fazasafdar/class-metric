@@ -194,7 +194,7 @@ export function WeightedGradeCalculator() {
           <ResultCard>
             <BigResult label="Final grade" value={`${fmt(result.finalPercentage)}%`} />
             <div className="mt-4 overflow-x-auto border-t border-line pt-4">
-              <table className="w-full min-w-[28rem] text-left text-sm">
+              <table className="w-full min-w[28rem] text-left text-sm">
                 <caption className="sr-only">How each assessment contributes to the final grade</caption>
                 <thead>
                   <tr className="text-muted">
@@ -207,7 +207,7 @@ export function WeightedGradeCalculator() {
                 <tbody>
                   {result.rows.map((row, index) => (
                     <tr key={index} className="border-t border-line">
-                      <th scope="row" className="max-w-48 py-2 pr-3 font-semibold break-words text-ink">{row.name}</th>
+                      <th scope="row" className="max-w-48 py-2 pr-3 font-semibold wrap-break-word text-ink">{row.name}</th>
                       <td className="py-2 pr-3">{fmt(row.percentage)}%</td>
                       <td className="py-2 pr-3">{fmt(row.weight)}%</td>
                       <td className="py-2">{fmt(row.contribution)}</td>

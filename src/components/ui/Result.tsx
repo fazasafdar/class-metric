@@ -22,7 +22,7 @@ export function BigResult({ label, value }: { label: string; value: string }) {
   return (
     <div>
       <p className="text-sm font-semibold text-muted">{label}</p>
-      <p className="mt-1 font-display text-4xl font-bold text-ink sm:text-5xl">
+      <p className="mt-1 font-display text-3xl font-bold text-ink sm:text-4xl">
         <span className="bg-mark px-2 [box-decoration-break:clone]">{value}</span>
       </p>
     </div>
@@ -40,7 +40,7 @@ export function StatList({
         <div key={item.label}>
           <dt className="text-sm text-muted">{item.label}</dt>
           <dd className="text-lg font-semibold text-ink">{item.value}</dd>
-          {item.detail ? <dd className="text-sm break-words text-muted">{item.detail}</dd> : null}
+          {item.detail ? <dd className="text-sm wrap-break-word text-muted">{item.detail}</dd> : null}
         </div>
       ))}
     </dl>
