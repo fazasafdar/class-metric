@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { TOOLS } from "@/lib/tools";
 
-const title = "Teacher Tools: free calculators for teachers and students";
+const title = "ClassMetric: free calculators for teachers and students";
 const description =
   "Free education calculators for teachers, students and parents: percentage, weighted grade, attendance, class average and marks required. Nothing you enter leaves your device.";
 
 export const metadata: Metadata = {
   alternates: { canonical: "/" },
-  openGraph: { title, description, url: "/", siteName: "Teacher Tools", type: "website" },
+  openGraph: { title, description, url: "/", siteName: "ClassMetric", type: "website" },
 };
 
 const audiences = [
@@ -59,7 +59,7 @@ export default function Home() {
               Simple calculators for marks, grades and attendance
             </h1>
             <p className="mt-4 max-w-xl text-lg text-muted">
-              Teacher Tools is a small set of free calculators for working out percentages, final
+              ClassMetric is a small set of free calculators for working out percentages, final
               grades, attendance and class averages in seconds, with a clear explanation of what
               each result means.
             </p>
@@ -131,7 +131,7 @@ export default function Home() {
       </section>
 
       <section className="mx-auto w-full max-w-5xl px-4 py-14">
-        <h2 className="font-display text-3xl font-bold text-ink">Why use Teacher Tools</h2>
+        <h2 className="font-display text-3xl font-bold text-ink">Why use ClassMetric</h2>
         <div className="mt-6 grid gap-6 sm:grid-cols-3">
           {reasons.map((item) => (
             <div key={item.title}>

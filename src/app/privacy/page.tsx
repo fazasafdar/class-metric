@@ -3,21 +3,21 @@ import { ArticlePage } from "@/components/ArticlePage";
 
 const title = "Privacy";
 const description =
-  "Teacher Tools does not collect, send or store the marks, names or other numbers you type into its calculators. Read how the site handles your data.";
+  "ClassMetric does not collect, send or store the marks, names or other numbers you type into its calculators. Read how the site handles your data.";
 
 export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: "/privacy" },
-  openGraph: { title, description, url: "/privacy", siteName: "Teacher Tools", type: "website" },
+  openGraph: { title, description, url: "/privacy", siteName: "ClassMetric", type: "website" },
 };
 
 export default function PrivacyPage() {
   return (
     <ArticlePage
       title="Privacy"
-      intro="Teacher Tools is designed so that the numbers and names you enter stay on your own device."
-      note="Last updated 27 October 2026"
+      intro="ClassMetric is designed so that the numbers and names you enter stay on your own device."
+      note="Last updated 28 October 2026"
       sections={[
         {
           heading: "The short version",
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
           heading: "Technical logs kept by the host",
           body: (
             <p>
-              Like almost every website, Teacher Tools is delivered by a hosting company. Hosting
+              Like almost every website, ClassMetric is delivered by a hosting company. Hosting
               companies normally keep basic technical logs, for example which pages were requested
               and the network address of the visitor, as part of keeping their servers running and
               secure. We do not add anything to this ourselves, and we do not use it to identify

@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "/class-average-calculator",
-    siteName: "Teacher Tools",
+    siteName: "ClassMetric",
     type: "website",
   },
 };

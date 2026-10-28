@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "/percentage-calculator",
-    siteName: "Teacher Tools",
+    siteName: "ClassMetric",
     type: "website",
   },
 };

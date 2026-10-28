@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="mt-16 border-t border-line bg-tint">
       <div className="mx-auto grid w-full max-w-5xl gap-8 px-4 py-10 sm:grid-cols-3">
         <div>
-          <p className="font-display text-lg font-bold text-ink">Teacher Tools</p>
+          <p className="font-display text-lg font-bold text-ink">ClassMetric</p>
           <p className="mt-2 text-sm text-muted">
             Free calculators for teachers, students and parents. No accounts, and nothing you enter
             leaves your device.
@@ -33,7 +33,7 @@ export function Footer() {
           <ul className="mt-2 space-y-1">
             <li>
               <Link href="/about" className={linkClass}>
-                About Teacher Tools
+                About ClassMetric
               </Link>
             </li>
             <li>

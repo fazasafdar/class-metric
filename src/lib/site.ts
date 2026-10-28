@@ -1,4 +1,4 @@
-export const SITE_NAME = "Teacher Tools";
+export const SITE_NAME = "ClassMetric";
 
 /**
  * The public address of the site. Set NEXT_PUBLIC_SITE_URL once the real

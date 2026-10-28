@@ -3,15 +3,15 @@ import Link from "next/link";
 import { ArticlePage } from "@/components/ArticlePage";
 import { TOOLS } from "@/lib/tools";
 
-const title = "About Teacher Tools";
+const title = "About ClassMetric";
 const description =
-  "Teacher Tools is a small set of free, private calculators for teachers, students and parents. Learn what is on the site and how it works.";
+  "ClassMetric is a small set of free, private calculators for teachers, students and parents. Learn what is on the site and how it works.";
 
 export const metadata: Metadata = {
   title,
   description,
   alternates: { canonical: "/about" },
-  openGraph: { title, description, url: "/about", siteName: "Teacher Tools", type: "website" },
+  openGraph: { title, description, url: "/about", siteName: "ClassMetric", type: "website" },
 };
 
 const linkClass = "font-semibold text-brand underline";
@@ -19,8 +19,8 @@ const linkClass = "font-semibold text-brand underline";
 export default function AboutPage() {
   return (
     <ArticlePage
-      title="About Teacher Tools"
-      intro="Teacher Tools is a small set of free calculators for the everyday maths of teaching and studying: marks, grades, attendance and class results."
+      title="About ClassMetric"
+      intro="ClassMetric is a small set of free calculators for the everyday maths of teaching and studying: marks, grades, attendance and class results."
       sections={[
         {
           heading: "What it is for",
@@ -28,7 +28,7 @@ export default function AboutPage() {
             <>
               <p>
                 Working out a percentage, a weighted final grade or a class average is simple, but
-                easy to get wrong when you are in a hurry. Teacher Tools gives you a clear, checked
+                easy to get wrong when you are in a hurry. ClassMetric gives you a clear, checked
                 answer in seconds, and explains what the answer means.
               </p>
               <p>

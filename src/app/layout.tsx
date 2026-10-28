@@ -8,8 +8,8 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   applicationName: SITE_NAME,
   title: {
-    default: "Teacher Tools: free calculators for teachers and students",
-    template: "%s | Teacher Tools",
+    default: "ClassMetric: free calculators for teachers and students",
+    template: "%s | ClassMetric",
   },
   description:
     "Free education calculators for teachers, students and parents: percentage, weighted grade, attendance, class average and marks required. Nothing you enter leaves your device.",

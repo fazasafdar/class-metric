@@ -60,7 +60,7 @@ export function Header() {
           onClick={() => setOpen(false)}
           className="font-display text-xl font-bold text-ink"
         >
-          Teacher<span className="text-brand"> Tools</span>
+          Class<span className="text-brand">Metric</span>
         </Link>
 
         <nav aria-label="Main" className="hidden lg:block">

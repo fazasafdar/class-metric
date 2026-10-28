@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     title,
     description,
     url: "/weighted-grade-calculator",
-    siteName: "Teacher Tools",
+    siteName: "ClassMetric",
     type: "website",
   },
 };
